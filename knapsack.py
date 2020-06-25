@@ -1,14 +1,3 @@
-# n個の品物があり、i番目の品物の重さと価値が
-# weight[i], value[i]となっている（i=0,1,...,n-1)
-# これらの品物から重さの総和がWを超えないように選んだときの、
-# 価値の総和の最大値を求めよ
-
-# 【制約】
-# ・1≤n≤100
-# ・weight[i],value[i]は整数
-# ・1≤weight[i],value[i]≤1000
-# ・1≤W≤10000
-
 n = int(input())
 goods = [list(map(int, input().split())) for _ in range(n)]
 W = int(input())
